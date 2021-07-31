@@ -1,0 +1,86 @@
+body
+{
+   background-image: url("../images/background.jpg");
+}
+
+  .all
+  {
+    width:70%;
+    margin: auto;
+    background-color: white;
+   height:100vh;
+  }
+
+@media only screen and (max-width: 768px) {
+    .all {
+        width: 100%
+    }
+}
+
+/*----------------------------------Registration Page-----------------------*/
+
+ .logo
+{
+  top:0;
+  left: 0;
+  padding: 15px;
+  font-size: x-large;
+}
+
+.mid
+  {
+    display: block;
+    margin: auto;
+ 
+
+  background-color:rgba(150,140,192,0.3);
+  padding: 20px;
+  padding-left:50px; 
+  padding-right:50px;
+  overflow: auto;
+  width: 281px;
+
+
+  }
+
+footer{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  padding: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color:purple;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+}
+
+.button:hover {background-color: lightblue}
+
+
+
+  /*--------------------------------------------------*/
+
+  /*------------------------------LOGIN PAGE-----------------*/
+  .midLogin
+{
+  
+  background-color:rgba(150,140,192,0.3);
+  padding: 30px;
+  width : 300px;
+  margin: auto;
+  display: block;
+  margin-top: 100px;
+}
+
+
+/*------------------------------------------------------------*/
